@@ -21,15 +21,15 @@ int main(void) {
     return 1;
   }
 
-  char line[MAX_LENGTH];
+  char lt[MAX_LENGTH];
 
   char months[12][10] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 
   float sales[12];
   int i = 0;
 
-  while (fgets(line, MAX_LENGTH, file) != NULL) {
-    sscanf(line, "%f", &sales[i]);
+  while (fgets(lt, MAX_LENGTH, file) != NULL) {
+    sscanf(lt, "%f", &sales[i]);
     i++;
   }
 
