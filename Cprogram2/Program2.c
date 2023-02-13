@@ -155,7 +155,7 @@ int main(){
 
 
 	while (m != 0){
-		printf("\n\nEnter 0 to STOP");
+		printf("\n\nEnter 0 to terminate and stop program");
 		printf("\n\nEnter the NFL score: ");
 		scanf("%d", &m);
 		combinations(combos, m, 0);
